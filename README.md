@@ -6,10 +6,9 @@ Homebrew tap for `zdx`.
 
 ```bash
 brew tap tallesborges/zdx
-brew install --cask zdx
+brew install zdx
 ```
 
-## Updating the cask
+## Updating the formula
 
-The release workflow in `tallesborges/zdx` generates a `zdx.rb` cask asset.
-After each release, copy that asset into `Casks/zdx.rb` and push.
+The release workflow in `tallesborges/zdx` automatically updates `Formula/zdx.rb` on each release.
